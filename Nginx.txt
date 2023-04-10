@@ -1,0 +1,12 @@
+Installation of Nginx Web Server
+Steps:
+1.sudo yum install epel-release
+2. sudo yum install nginx
+3.sudo systemctl start nginx
+4.sudo systemctl status nginx
+5.i.sudo firewall-cmd --permanent --zone=public --add-service=http
+   ii.sudo firewall-cmd --permanent --zone=public --add-service=https
+   iii.sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+  iv.sudo firewall-cmd --reload
+6.check the web server 
+http://server_domain_name_or_IP/
