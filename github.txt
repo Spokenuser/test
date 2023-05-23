@@ -1,4 +1,0 @@
-Installation of GitHub-Desktop  —---    20 Feb 2023
-1.sudo apt install flatpak -y
-2.sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-3 flatpak install flathub io.github.shiftey.Desktop -y
